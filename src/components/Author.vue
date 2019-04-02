@@ -8,12 +8,12 @@
 		</h1>
 
 		<p class="author__intro">
-			A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.
+			Boletines y notas de prensa del Museo Municipal de Guayaquil.
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/gridsome">Follow on Twitter</a>
-			<a href="//github.com/gridsome/gridsome-starter-blog">GitHub</a>
+			<a href="//museoarteyciudad.com">Museo Arte y Ciudad</a>
+			<a href="//www.facebook.com/MUMG-Museo-Municipal-de-Guayaquil-68122309693/">Facebook</a>
 		</p>
 
 	</div>
