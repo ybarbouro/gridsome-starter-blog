@@ -1,12 +1,12 @@
 ---
-title: A post with a cover image
-date: 2019-01-07
+title: Programa de selección de finalistas a la Trivia Genios del Museo
+date: 2019-04-02
 published: true
-tags: ['Markdown', 'Cover Image']
+tags: ['Genios del Museo', 'Museo Municipal']
 series: false
-cover_image: ./images/alexandr-podvalny-220262-unsplash.jpg
+cover_image: //res.cloudinary.com/magnvs/image/upload/v1554239058/Arte_genios_1_zoc6nt.jpg
 canonical_url: false
-description: "Markdown is intended to be as easy-to-read and easy-to-write as is feasible. Readability, however, is emphasized above all else. A Markdown-formatted document should be publishable as-is, as plain text, without looking like it's been marked up with tags or formatting instructions."
+description: "Concurso de conocimientos básicos acerca de la historia, costumbres y culturas d enuestra amada Perla del Pacífico, además de otros temas de interés general, como Historia Natural y numismática."
 ---
 
 Readability, however, is emphasized above all else. A Markdown-formatted

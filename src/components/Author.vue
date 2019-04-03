@@ -53,6 +53,7 @@ export default {
 
 	&__site-title {
 		font-size: 1.5em;
+		font-family: "Impact", sans-serif;
 	}
 
 	&__links {

@@ -16,7 +16,8 @@
     </main>
 
     <footer class="footer">
-      <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }}. </span>
+      <span class="footer__copyright"><strong>Museo Municipal de Guayaquil</strong> © {{ new Date().getFullYear() }}.</span>
+      <span class="footer__copyright">Sucre entre Chile y Pedro Carbo. <strong>Tel. 04 259 4800</strong> ext. 7402 </span>
       <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a></span>
     </footer>
 
@@ -70,6 +71,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction:column;
   padding: calc(var(--space) / 2);
   text-align: center;
   font-size: .8em;
