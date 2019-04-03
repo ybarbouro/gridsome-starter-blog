@@ -4,11 +4,11 @@
       <h1 class="post-title__text">
         {{ $page.post.title }}
       </h1>
-      
+
       <PostMeta :post="$page.post" />
 
     </div>
-    
+
     <div class="post content-box">
       <div class="post__header">
         <g-image alt="Cover image" v-if="$page.post.coverImage" :src="$page.post.coverImage" />
@@ -77,6 +77,8 @@ query Post ($path: String!) {
 .post-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .post {
@@ -88,7 +90,7 @@ query Post ($path: String!) {
     margin-bottom: calc(var(--space) / 2);
     overflow: hidden;
     border-radius: var(--radius) var(--radius) 0 0;
-    
+
     img {
       width: 100%;
     }
@@ -119,7 +121,7 @@ query Post ($path: String!) {
 
 .post-comments {
   padding: calc(var(--space) / 2);
-  
+
   &:empty {
     display: none;
   }
