@@ -4,16 +4,34 @@
     <Author :show-title="true" />
 
     <!-- List posts -->
+
     <div class="posts">
       <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
     </div>
 
-  </Layout>
+    <div class="bottom">
+    <h2>INDEX</h2>
+    <p v-for="post in $page.posts.edges">
+      <g-link :to="post.node.path">
+        {{ post.node.title }}
+      </g-link>
+    </p>
+    <Pager :info="$page.posts.pageInfo"/>
+    </div>
+
+</Layout>
 </template>
 
 <page-query>
-{
-  posts: allPost {
+query Posts ($page: Int) {
+  posts: allPost (perPage: 4, page: $page) @paginate {
+    totalCount
+    pageInfo {
+     totalPages
+     currentPage
+     isFirst
+     isLast
+   }
     edges {
       node {
         id
@@ -42,14 +60,17 @@
 <script>
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
+import { Pager } from 'gridsome'
 
 export default {
   components: {
     Author,
-    PostCard
+    PostCard,
+    Pager
   },
   metaInfo: {
     title: '¡Comunicando!'
   }
 }
+
 </script>

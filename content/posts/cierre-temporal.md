@@ -1,5 +1,5 @@
 ---
-title: LA DIRECCIÓN DE CULTURA INFORMA
+title: La Dirección de Cultura INFORMA
 date: 2019-04-06
 published: true
 tags: ['Museo','Biblioteca']

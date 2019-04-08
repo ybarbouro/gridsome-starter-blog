@@ -3,10 +3,10 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" /> 
+        <Logo v-if="showLogo" />
       </div>
-      
-      <div class="header__right">        
+
+      <div class="header__right">
         <ToggleTheme />
       </div>
     </header>
@@ -62,6 +62,35 @@ export default {
   }
 }
 
+.bottom {
+  display: flex;
+  align-items: left;
+  flex-direction:column;
+  padding:0;
+  margin: 0 auto;
+  max-width: 850px;
+  top:0;
+  z-index: 10;
+
+  @media screen and (min-width: 1300px) {
+    //Make header sticky for large screens
+    position: relative;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    margin: 5px 0 0 0;
+  }
+
+  h2 {
+  color: #fafad2;
+  }
+}
+
 .main {
   margin: 0 auto;
   padding: 1.5vw 15px 0;
@@ -84,4 +113,15 @@ export default {
     color: currentColor;
   }
 }
+  nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+  padding: 0 10px;
+  font-weight: bold;
+ }
+}
+
 </style>
