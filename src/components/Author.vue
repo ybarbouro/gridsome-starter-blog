@@ -11,7 +11,7 @@
 			Boletines y notas de prensa del Museo Municipal de Guayaquil.
 		</p>
 
-		<p class="author__links">
+		<p v-if="showLinks" class="author__links">
 			<a href="//museoarteyciudad.com">Museo Arte y Ciudad</a>
 			<a href="//www.facebook.com/MUMG-Museo-Municipal-de-Guayaquil-68122309693/">Facebook</a>
 		</p>
@@ -29,7 +29,7 @@ query {
 
 <script>
 export default {
-	props: ['showTitle']
+	props: ['showTitle', 'showLinks']
 }
 </script>
 

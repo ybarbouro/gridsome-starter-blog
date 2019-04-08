@@ -7,6 +7,9 @@
       </div>
 
       <div class="header__right">
+      <nav class="nav">
+        <g-link class="nav__link" to="/about" style="text-decoration:none">INDEX</g-link>
+      </nav>
         <ToggleTheme />
       </div>
     </header>
@@ -87,7 +90,11 @@ export default {
   }
 
   h2 {
-  color: #fafad2;
+  color: #ad76e0;
+  }
+
+  img {
+  width: 100%;
   }
 }
 
