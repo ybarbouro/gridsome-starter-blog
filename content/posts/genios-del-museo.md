@@ -23,6 +23,4 @@ El **día 28 de mayo** se realizará la guianza final para los colegios finalist
 
 La **final se realizará el día 31 de mayo del 2019** en la que participarán los 3 colegios al mismo tiempo.
 
-El motivo de enviar esta carta a inicios del presente año es para que las unidades educativas incluyan éste proyecto dentro de su gestión anual (2019).
-
 Para mayor información sírvase comunicarse con la funcionaria *Tnlga. Sofía Chiriboga A.* &nbsp; &nbsp; cel: *0963009413* &nbsp; &nbsp; tel: *2594800 ext. 7405/7310* &nbsp; &nbsp; e-mail: *triviageniosdelmuseo@gmail.com*
