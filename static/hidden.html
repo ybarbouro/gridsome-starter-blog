@@ -21,14 +21,5 @@
 </div>
   
 <script src="https://unpkg.com/stein-expedite@0.0.1/dist/index.js"></script>  
-<script>
-  const store = new SteinStore(
-    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
-  );
-
-  store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
-    console.log(data);
-  });
- </script>
 </body>
 </html>
