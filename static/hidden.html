@@ -6,7 +6,29 @@
 <link rel='stylesheet' href='//cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
 </head>
 <body>
-  <h1>Me preguntaba que pasa con el cuerpo.</h1>
-  <script src="https://unpkg.com/import-doc/dist/import-doc/import-doc.js"></script><import-doc src="https://api.importdoc.com/document?id=Pyq3RanPjMjAzROw4SL6"></import-doc>
+  <div
+  data-stein-url="https://api.steinhq.com/v1/storages/5d3d2ca587c49c04cac1362e"
+  data-stein-limit="2"
+>
+  <div>
+    <h1>{{title}}</h1>
+    <h6>By {{author}}</h6>
+    <p>
+      {{content}}
+    </p>
+    <p>Read on <a href="{{link}}">Medium</a></p>
+  </div>
+</div>
+  
+<script src="https://unpkg.com/stein-expedite@0.0.1/dist/index.js"></script>  
+<script>
+  const store = new SteinStore(
+    "https://api.steinhq.com/v1/storages/5cc158079ec99a2f484dcb40"
+  );
+
+  store.read("Sheet1", { limit: 1, offset: 2 }).then(data => {
+    console.log(data);
+  });
+ </script>
 </body>
 </html>
