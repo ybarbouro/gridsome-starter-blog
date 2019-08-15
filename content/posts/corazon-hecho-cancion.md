@@ -1,6 +1,6 @@
 ---
 title: El corazón hecho canción
-date: 2019-08-15
+date: 2019-15-08
 published: true
 tags: ['HomenajePasillo', 'MúsicaPopular', 'Danza', 'AuditorioMuseo']
 canonical_url: false
