@@ -1,6 +1,6 @@
 ---
 title: El corazón hecho canción
-date: 2019-15-08
+date: 2019-08-15
 published: true
 tags: ['Pasillo Ecuatoriano','Música Popular','Auditorio Museo']
 canonical_url: false
