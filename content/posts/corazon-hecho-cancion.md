@@ -2,7 +2,7 @@
 title: El corazón hecho canción
 date: 2019-15-08
 published: true
-tags: ['HomenajePasillo', 'MúsicaPopular', 'Danza', 'AuditorioMuseo']
+tags: ['HomenajePasillo','MúsicaPopular','Danza','AuditorioMuseo']
 canonical_url: false
 cover_image: //res.cloudinary.com/magnvs/image/upload/v1565148888/wmu0bgogz6lplpt4xmgv.jpg
 description: 'El corazón hecho canción' se llevará a cabo los días 22 y 23 de agosto, en el Auditorio del Museo Municipal, con el fin de cambiar la percepción del pasillo ecuatoriano a nivel generacional.
