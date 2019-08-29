@@ -5,7 +5,7 @@ published: true
 tags: ['Arte Contemporáneo','Gonzenbach']
 canonical_url: false
 cover_image: //res.cloudinary.com/magnvs/image/upload/v1565671209/vmttq401ojtic73weehi.jpg
-description: "Federico Gonzenbcah, pintor Ecuatoriano (1956), autodidacta y multifacético, expone en el Museo Municipal de Guayaquil del 4 al 20 de Sep / 2019.  Sus facultades nacen del instinto artístico que es el producto y regalo del don divino que Dios le dio y que solo se transforma por medio de la voluntad y de la mente quien la maneja y crece al ritmo del artista."
+description: "Federico Gonzenbach, pintor Ecuatoriano (1956), autodidacta y multifacético, expone en el Museo Municipal de Guayaquil del 4 al 20 de Sep / 2019.  Sus facultades nacen del instinto artístico que es el producto y regalo del don divino que Dios le dio y que solo se transforma por medio de la voluntad y de la mente quien la maneja y crece al ritmo del artista."
 ---
 ### Federico Gonzenbach
 
