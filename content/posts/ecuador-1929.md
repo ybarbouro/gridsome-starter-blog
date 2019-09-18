@@ -5,7 +5,7 @@ published: true
 tags: ['Arte','Fotografía','1929','Ecuador']
 canonical_url: false
 cover_image: //res.cloudinary.com/magnvs/image/upload/v1568833877/4_1_kyzl7p.jpg
-description: "Una excepcional producción cinematrográfica original de Carlos Endara: Ecuador 1929, rescatada recientemente, será presentada en el Museo Municipal de Guayaquil el 26 de septiembre a las 17.30 horas."
+description: "Una excepcional producción cinematográfica original de Carlos Endara: Ecuador 1929, rescatada recientemente, será presentada en el Museo Municipal de Guayaquil el 26 de septiembre a las 17.30 horas."
 ---  
 
 Gracias a la donación del panameño Mario Lewis, la Universidad Andina Simón Bolívar, Sede Ecuador y el Colegio de América, Sede Latinoamericana, con el auspicio de la Municipalidad de Guayaquil, realizaron el rescate y restauración de la película filmada por Carlos Endara Andrade en 1929, que detalla su visita a Guayaquil, el viaje en ferrocarril a Quito y su estancia en la capital. Existen varias fuentes que mencionan la existencia de esta película, pero la consideran perdida. Ahora puede exhibirse muy bien restaurada, aunque su última parte, que corresponde a le llegada del ferrocarril Ibarra, no pudo ser recuperada.  
