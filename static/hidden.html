@@ -5,10 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>Ageda Auditorio</title>
   <link rel='stylesheet' href='//cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.css'>
-  <style>
-    img {width: 35%;
-    }
-  </style>
 </head>
 <body>
 
@@ -16,13 +12,12 @@
     data-stein-url="https://api.steinhq.com/v1/storages/5d86c23a95caec04c53f70c2/agenda"
   >
     <div>
-      <img src="{{img}}"/>
-      <h1>{{title}}</h1>
-      <h6>By {{author}}</h6>
+      <h1>{{evento}}</h1>
+      <h6>Organiza: {{organiza}}</h6>
       <p>
-        {{content}}
+        {{info}}
       </p>
-      <p>Read on <a href="{{link}}">Medium</a></p>
+      <p>{{fecha}} | {{hora}}</p>
     </div>
   </div>
 
