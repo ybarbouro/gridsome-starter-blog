@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-  </head>
-  <body>
-    <div>
-    <h1>{{title}}</h1>
-    <h6>By {{author}}</h6>
-    <p>
-      {{content}}
-    </p>
-    <p>Read on <a href="{{link}}">Medium</a></p>
-  </div>
-    <script src="https://unpkg.com/stein-js-client"></script>
-<script>
-  const store = new SteinStore(
-    "https://api.steinhq.com/v1/storages/5d86c23a95caec04c53f70c2"
-  );
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <title>Ageda Auditorio</title>
+</head>
+<body>
 
-  store.read("agenda", { limit: 1, offset: 2 }).then(data => {
-    console.log(data);
-  });
-</script>
-  </body>
+  <div
+    data-stein-url="https://api.steinhq.com/v1/storages/5d86c23a95caec04c53f70c2/agenda"
+  >
+    <div>
+      <h1>{{title}}</h1>
+      <h6>By {{author}}</h6>
+      <p>
+        {{content}}
+      </p>
+      <p>Read on <a href="{{link}}">Medium</a></p>
+    </div>
+  </div>
+
+<script src="https://unpkg.com/stein-expedite@0.0.1/dist/index.js"></script>
+</body>
 </html>
